@@ -1,0 +1,133 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+}
+.logo1 img{
+    height: 55px;
+    width: 60px;
+}
+.title h1{
+    margin: 0 auto;
+}
+
+.menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu a{
+    padding: 5px 10px;
+    margin: 7px auto;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/*Profile Design*/
+.profile .top-image{
+    position: absolute;
+    right: 100px;
+    top: 21px;
+    transition: transform 2s;
+}
+.profile .top-image:hover{
+    transform: rotate(360deg);
+}
+.profile .img-2{
+    position: absolute;
+    left: 100px;
+    bottom: 21px;
+    transition: transform 2s;
+
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 20px auto;
+}
+/*Profile Design ends*/
+
+/*About me*/
+.image{
+    margin: 50px auto;
+}
+.image img{
+    padding: .5%;
+
+}
+.data{
+    text-align: left;
+}
+/*About me ends*/
+
+
+
+
+.work-exp{
+      background-color: rgb(172, 171, 171);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 10px;
+    height: 900px;
+    transition: .3s;
+    margin-left: 80px;
+}
+.skills{
+    background-color: rgb(172, 171, 171);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 10px;
+    height: 900px;
+    transition: .3s;
+    margin-left: 80px;
+}
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 46px 5px;
+}
+
+
+/*Contact starts*/
+.achievement{
+    padding-right: 50px;
+}
+.contact-link{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+/*Contact ends*/
+
+/*Footer starts*/
+.left-foot{
+    padding-top: 28px;
+}
+.left-foot a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
